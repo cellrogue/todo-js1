@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Edu%20SA%20Beginner:700|Edu%20SA%20Beginner:400");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Edu SA Beginner";
+  font-weight: 400;
+  background-color: #031603;
+  color: #e0fbe3;
+}
+body .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body .heading img {
+  width: 600px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 8px;
+}
+body .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .content form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #86f18c;
+  padding: 8px 16px;
+  gap: 10px;
+}
+body .content form input {
+  margin: 8px 0px;
+  width: 400px;
+  outline: none;
+  padding: 4px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+body .content form .btn {
+  background-image: linear-gradient(144deg, #4384e9, #86f18c 50%, #127d9d);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #031603;
+  font-family: "Edu SA Beginner";
+  font-weight: 400;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+body .content form .btn:hover {
+  background-image: linear-gradient(144deg, #031603, #4384e9 50%, #86f18c);
+  cursor: pointer;
+}
+body .content .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+body .content .container #todosContainer {
+  padding: 16px 24px;
+  list-style: none;
+}
+body .content .container #todosContainer li {
+  cursor: pointer;
+}
+body .content .container #todosContainer li:hover {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=styles.css.map */
